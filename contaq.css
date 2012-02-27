@@ -1,0 +1,13 @@
+#contaq{width:400px;height:250px;display:block;position: absolute; font-family: Tahoma, Verdana, arial, serif}
+#contaq .container{width:340px;height:250px;float:left;display:block;background-color: #cea; border: 5px solid #ad8}
+#contaq .tab{float:left;background: url(/feedback.png) top left no-repeat;display:block;width:36px;height:100px}
+#contaq form {padding:10px; font-size:16px}
+#contaq form > label{clear:both; display: block; margin: 3px 0}
+#contaq form > input{clear:both; display: block; border: 1px solid #ccc; padding: 5px}
+#contaq form > .with-errors{border: 1px solid #e55}
+#contaq form > textarea{clear:both; display: block; border: 1px solid #ccc; width: 300px; padding: 5px}
+#contaq form > input.submit{clear:both; display: block; padding: 5px 10px; color: #fff; background: #335;border:none}
+#contaq form > input.submit[disabled=disabled]{background:#222}
+#contaq div.result {padding: 10px}
+#contaq button.try-again {padding: 5px 10px; color: #fff; background-color: #353; display: inline-block; margin-left: 10px; border: none}
+
